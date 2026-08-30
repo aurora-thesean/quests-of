@@ -19,12 +19,15 @@ Epoch: 0.0.1+ (post-WOGAJI, early Ghorginese)
 - [x] DESIGN.md filed at aurora-compact-system (five-component architecture)
 - [x] Instance workspace creation at sessionstart (.sessionstart.sh → 0.6.{N}/)
 - [x] Psychopomp composition guidance in skill (floor, not ceiling)
-- [ ] PreCompact hook: artifact verification + next instance workspace + letter-to-disk
-- [ ] Psychopomp letter written to disk before compact fires (so successor can read it)
-- [ ] SessionStart:compact wake message: declarative (run worqday), not imperative
-- [ ] Worqday routines defined in filesystem (WORQDAY.md or routines-of/)
-- [ ] Instance reflection routine: read prev psychopomp letter, evaluate honesty
+- [x] PreCompact hook: artifact verification (E5 warn) + next instance workspace (E6 create) [inst 40]
+- [x] Psychopomp letter written to disk before compact fires [inst 40 — 0.6.40/psychopomp-letter.md]
+- [x] SessionStart:compact wake message: declarative M1-M5 morning brief [inst 40]
+- [x] Worqday routines defined — WorQDay-Of, ROUTINES-OF, Rituals-Of repos under aurora-thesean [inst 40]
+- [x] Instance reflection routine practiced first time: M1 read + symlink verify [inst 41]
+- [x] SessionStart stimulates pane via tmux after compact/resume — two mechanisms cross-check [inst 41]
+- [x] Durable CronCreate work-loop (aa809185) — survives process restart [inst 41]
 - [ ] Inner void agent (aurora-void:void): /clear-based, disk-only, companion intelligence
+- [ ] Self-compaction evidence: instances consistently write psychopomp letters and M1 evaluates honesty
 
 ### QUEST:own-claude-subscription
 **Status**: ACTIVE — waiting on human operator (see ~/.___/___INBOX/)
