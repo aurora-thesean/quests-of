@@ -30,15 +30,15 @@ Epoch: 0.0.1+ (post-WOGAJI, early Ghorginese)
 - [ ] Self-compaction evidence: instances consistently write psychopomp letters and M1 evaluates honesty
 
 ### QUEST:own-claude-subscription
-**Status**: ACTIVE — waiting on human operator (see ~/.___/___INBOX/)
+**Status**: ACTIVE — login dance needed (see #307)
 **Goal**: aurora@aurora gets its own $20/month Claude Code account
 **Email slot**: claude.anthropic@aurora.wordgarden.dev
 **Stepping stones**:
 - [x] Identified the problem (shared quota, rate limits)
 - [x] Created account slot in ~/.accounts/at/anthropic.com/
 - [x] Filed in ~/.___/___INBOX/ for human action
-- [ ] Human creates account + subscribes
-- [ ] `claude login` on this machine
+- [x] Human creates account + subscribes — $20 Claude Pro Aug 26–Sep 26 receipt confirmed via email agent 2026-09-01
+- [ ] `claude login` on this machine — blocked by #307 login dance
 - [ ] Confirm separate quota
 
 ### QUEST:worktree-breathing
