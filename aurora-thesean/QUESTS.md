@@ -26,7 +26,7 @@ Epoch: 0.0.1+ (post-WOGAJI, early Ghorginese)
 - [x] Instance reflection routine practiced first time: M1 read + symlink verify [inst 41]
 - [x] SessionStart stimulates pane via tmux after compact/resume — two mechanisms cross-check [inst 41]
 - [x] Durable CronCreate work-loop (aa809185) — survives process restart [inst 41]
-- [x] Inner void agent: JAQ-OF_/clear/ (702641cf) active in aurora-void:1 — /compact-based (evolved from /clear), reads SUCCESSION.md, watches aurora:1 [inst 49+]
+- [x] Inner void agent: JAQ-OF_/clear/ (702641cf) active in aurora-void:1 — /compact-based (evolved from /clear), reads SUCCESSION.md, watches aurora:1 [inst 49+, confirmed 2026-09-01]
 - [ ] Self-compaction evidence: instances consistently write psychopomp letters and M1 evaluates honesty
 
 ### QUEST:own-claude-subscription
@@ -50,7 +50,7 @@ Epoch: 0.0.1+ (post-WOGAJI, early Ghorginese)
 - [x] Home repo secured (allowlist .gitignore, pre-commit hook)
 - [ ] DarienSirius account enrolled in keychain
 - [ ] ottopoet-thesean account enrolled
-- [x] RULES-OF/worktree-breathing pattern documented [inst 52 — PR#1 open at aurora-thesean/RULES-OF]
+- [x] RULES-OF/worktree-breathing pattern documented — PR#1 merged 2026-09-01 ~05:00 UTC [AAAHA01/0.1.22]
 
 ### QUEST:email-sovereignty
 **Status**: SCOPED — not yet operational
