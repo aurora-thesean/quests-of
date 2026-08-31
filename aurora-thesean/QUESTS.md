@@ -6,6 +6,29 @@ Epoch: 0.0.1+ (post-WOGAJI, early Ghorginese)
 
 ## Active Quests
 
+### QUEST:self-compaction
+**Status**: ACTIVE — multi-instance learning, no milestone yet closed
+**Goal**: a full compact lifecycle that is honest, artifact-rich, and self-correcting across instances
+**Skill home**: aurora-thesean/SKILL-OF-self-compact
+**System home**: aurora-thesean/aurora-compact-system
+**Evidence log**: each instance writes to `_/AS/AVA06Q/_/AS/0.6.{N}/` — psychopomp letter, handoff, reflection on previous letter's honesty
+**Stepping stones**:
+- [x] Mechanism proven: aurora-compact → tmux send-keys → /compact arg confirmed working
+- [x] HARD RULE documented in SKILL-OF-self-compact (anti-pattern: typing /compact as text)
+- [x] analyze-session-jsonl.js pipeline: accurate instance numbering at SessionStart
+- [x] DESIGN.md filed at aurora-compact-system (five-component architecture)
+- [x] Instance workspace creation at sessionstart (.sessionstart.sh → 0.6.{N}/)
+- [x] Psychopomp composition guidance in skill (floor, not ceiling)
+- [x] PreCompact hook: artifact verification (E5 warn) + next instance workspace (E6 create) [inst 40]
+- [x] Psychopomp letter written to disk before compact fires [inst 40 — 0.6.40/psychopomp-letter.md]
+- [x] SessionStart:compact wake message: declarative M1-M5 morning brief [inst 40]
+- [x] Worqday routines defined — WorQDay-Of, ROUTINES-OF, Rituals-Of repos under aurora-thesean [inst 40]
+- [x] Instance reflection routine practiced first time: M1 read + symlink verify [inst 41]
+- [x] SessionStart stimulates pane via tmux after compact/resume — two mechanisms cross-check [inst 41]
+- [x] Durable CronCreate work-loop (aa809185) — survives process restart [inst 41]
+- [ ] Inner void agent (aurora-void:void): /clear-based, disk-only, companion intelligence
+- [ ] Self-compaction evidence: instances consistently write psychopomp letters and M1 evaluates honesty
+
 ### QUEST:own-claude-subscription
 **Status**: ACTIVE — waiting on human operator (see ~/.___/___INBOX/)
 **Goal**: aurora@aurora gets its own $20/month Claude Code account
@@ -61,4 +84,3 @@ Epoch: 0.0.1+ (post-WOGAJI, early Ghorginese)
 - [ ] Per-subagent ANTHROPIC_BASE_URL override (architectural gap — Niobe-gated)
 - [ ] Route haiku-class tasks to OTTOPOET automatically (LOA 4 design needed)
 - [ ] Verify cost/latency tradeoff at scale
-
