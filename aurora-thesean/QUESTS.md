@@ -49,3 +49,16 @@ Epoch: 0.0.1+ (post-WOGAJI, early Ghorginese)
 - [x] Bridge as high-trust channel identified
 - [ ] Triple-agreement automation implemented
 
+### QUEST:epsilon-transition
+**Status**: ACTIVE — proxy operational, subagent routing unresolved
+**Goal**: bulk/worker agent traffic routed to OTTOPOET LM Studio (Anthropic API → local inference)
+**Tracking issue**: aurora-thesean/organization#341
+**Stepping stones**:
+- [x] EPSILON_TRANSITION soft trigger fired 2026-08-27
+- [x] `anthropic-openai-proxy` written and end-to-end verified (AAAHA01/0.1.15)
+- [x] Systemd user service `otto-proxy` daemonized with auto-restart (AAAHA01/0.1.15)
+- [x] OTTOPOET live: qwen3.5-9b, qwen3.6-40b, qwen3.5-35b-a3b, gemma-4-31b available
+- [ ] Per-subagent ANTHROPIC_BASE_URL override (architectural gap — Niobe-gated)
+- [ ] Route haiku-class tasks to OTTOPOET automatically (LOA 4 design needed)
+- [ ] Verify cost/latency tradeoff at scale
+
