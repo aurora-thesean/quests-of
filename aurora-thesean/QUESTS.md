@@ -22,7 +22,7 @@ Epoch: 0.0.1+ (post-WOGAJI, early Ghorginese)
 - [x] PreCompact hook: artifact verification (E5 warn) + next instance workspace (E6 create) [inst 40]
 - [x] Psychopomp letter written to disk before compact fires [inst 40 — 0.6.40/psychopomp-letter.md]
 - [x] SessionStart:compact wake message: declarative M1-M5 morning brief [inst 40]
-- [x] Worqday routines defined — WorQDay-Of, ROUTINES-OF, Rituals-Of repos under aurora-thesean [inst 40]
+- [x] Worqday routines defined — WorQDay-Of, ROUTINES-OF, Rituals-Of repos under aurora-thesean [inst 40]; ROUTINES-OF repo actually created + ROUTINES.md written (AVA012Q 0.12.17, 2026-09-08)
 - [x] Instance reflection routine practiced first time: M1 read + symlink verify [inst 41]
 - [x] SessionStart stimulates pane via tmux after compact/resume — two mechanisms cross-check [inst 41]
 - [x] Durable CronCreate work-loop (aa809185) — survives process restart [inst 41]
@@ -73,19 +73,22 @@ Epoch: 0.0.1+ (post-WOGAJI, early Ghorginese)
 - [ ] Triple-agreement automation implemented
 
 ### QUEST:epsilon-transition
-**Status**: ACTIVE — Stage A launcher routing deployed; per-subagent override Niobe-gated
+**Status**: STAGE A COMPLETE — tracking issue #341 closed 2026-09-08; Stage B Niobe-gated
 **Goal**: bulk/worker agent traffic routed to OTTOPOET LM Studio (Anthropic API → local inference)
-**Tracking issue**: aurora-thesean/organization#341
+**Tracking issue**: aurora-thesean/organization#341 (CLOSED 2026-09-08)
 **Stepping stones**:
 - [x] EPSILON_TRANSITION soft trigger fired 2026-08-27
 - [x] `anthropic-openai-proxy` written and end-to-end verified (AAAHA01/0.1.15)
 - [x] Systemd user service `otto-proxy` daemonized with auto-restart (AAAHA01/0.1.15)
-- [x] OTTOPOET live: qwen3.5-9b, qwen3.6-40b, qwen3.5-35b-a3b, gemma-4-31b available
+- [x] OTTOPOET live: qwen3.5-9b, qwen3.6-40b, qwen3.5-35b-a3b, gemma-4-31b available (22 models as of 2026-09-08)
 - [x] Direct `ANTHROPIC_BASE_URL` routing proven: Claude Code CLI routes to OTTOPOET `/v1/messages` (AVA06Q inst 55-56)
 - [x] `-p --resume` context carryover confirmed: same JSONL, full context across turns (ZEPHYR test, inst 55-56)
 - [x] Skill deployed: `~/.claude/skills/ottopoet-agent-spawn.skill.md` — agent-as-CWD pattern documented
 - [x] LOA 4 design + LOA 6 spec filed: #369 (session-level ANTHROPIC_BASE_URL routing; proxy health check; routing-log format)
 - [x] Stage A implemented: `aurora-work` launcher deploys ANTHROPIC_BASE_URL→OTTOPOET for work-window agents (AAAHA.local-bin PR#3, AVA012Q 0.12.14, 2026-09-08)
 - [x] Stage A extended: `aurora-email` launcher deploys same routing for email-window agents — EPSILON_TRANSITION action (2) complete (AAAHA.local-bin PR#4, AVA012Q 0.12.16, 2026-09-08)
+- [x] AAAHA.local-bin restructured: devline+installed worktree+stow — launchers now stow-deployed (#373, AVA012Q 0.12.17, 2026-09-08)
+- [x] OTTOPOET health check improved: launchers now probe 192.168.0.103:1234 directly, not just otto-proxy (AAAHA.local-bin PR#6, AVA012Q 0.12.17, 2026-09-08)
+- [x] aurora-vr worker restarted on OTTOPOET endpoint — was targeting dead llama.cpp localhost:8080 (AVA012Q 0.12.17, 2026-09-08)
 - [ ] Per-subagent ANTHROPIC_BASE_URL override (architectural gap — Niobe-gated, #369 Stage B)
 - [ ] Verify cost/latency tradeoff at scale
