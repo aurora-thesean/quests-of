@@ -73,7 +73,7 @@ Epoch: 0.0.1+ (post-WOGAJI, early Ghorginese)
 - [ ] Triple-agreement automation implemented
 
 ### QUEST:epsilon-transition
-**Status**: ACTIVE — manual CLI routing proven, automatic per-subagent routing Niobe-gated
+**Status**: ACTIVE — Stage A launcher routing deployed; per-subagent override Niobe-gated
 **Goal**: bulk/worker agent traffic routed to OTTOPOET LM Studio (Anthropic API → local inference)
 **Tracking issue**: aurora-thesean/organization#341
 **Stepping stones**:
@@ -84,6 +84,7 @@ Epoch: 0.0.1+ (post-WOGAJI, early Ghorginese)
 - [x] Direct `ANTHROPIC_BASE_URL` routing proven: Claude Code CLI routes to OTTOPOET `/v1/messages` (AVA06Q inst 55-56)
 - [x] `-p --resume` context carryover confirmed: same JSONL, full context across turns (ZEPHYR test, inst 55-56)
 - [x] Skill deployed: `~/.claude/skills/ottopoet-agent-spawn.skill.md` — agent-as-CWD pattern documented
-- [ ] Per-subagent ANTHROPIC_BASE_URL override (architectural gap — Niobe-gated)
-- [ ] Route haiku-class tasks to OTTOPOET automatically (LOA 4 design needed)
+- [x] LOA 4 design + LOA 6 spec filed: #369 (session-level ANTHROPIC_BASE_URL routing; proxy health check; routing-log format)
+- [x] Stage A implemented: `aurora-work` launcher deploys ANTHROPIC_BASE_URL→OTTOPOET for work-window agents (AAAHA.local-bin PR#3, AVA012Q 0.12.14, 2026-09-08)
+- [ ] Per-subagent ANTHROPIC_BASE_URL override (architectural gap — Niobe-gated, #369 Stage B)
 - [ ] Verify cost/latency tradeoff at scale
