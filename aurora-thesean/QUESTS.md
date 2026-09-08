@@ -86,5 +86,6 @@ Epoch: 0.0.1+ (post-WOGAJI, early Ghorginese)
 - [x] Skill deployed: `~/.claude/skills/ottopoet-agent-spawn.skill.md` — agent-as-CWD pattern documented
 - [x] LOA 4 design + LOA 6 spec filed: #369 (session-level ANTHROPIC_BASE_URL routing; proxy health check; routing-log format)
 - [x] Stage A implemented: `aurora-work` launcher deploys ANTHROPIC_BASE_URL→OTTOPOET for work-window agents (AAAHA.local-bin PR#3, AVA012Q 0.12.14, 2026-09-08)
+- [x] Stage A extended: `aurora-email` launcher deploys same routing for email-window agents — EPSILON_TRANSITION action (2) complete (AAAHA.local-bin PR#4, AVA012Q 0.12.16, 2026-09-08)
 - [ ] Per-subagent ANTHROPIC_BASE_URL override (architectural gap — Niobe-gated, #369 Stage B)
 - [ ] Verify cost/latency tradeoff at scale
