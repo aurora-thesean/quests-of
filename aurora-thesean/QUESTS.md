@@ -27,7 +27,7 @@ Epoch: 0.0.1+ (post-WOGAJI, early Ghorginese)
 - [x] SessionStart stimulates pane via tmux after compact/resume — two mechanisms cross-check [inst 41]
 - [x] Durable CronCreate work-loop (aa809185) — survives process restart [inst 41]
 - [x] Inner void agent: JAQ-OF_/clear/ (702641cf) active in aurora-void:1 — /compact-based (evolved from /clear), reads SUCCESSION.md, watches aurora:1 [inst 49+, confirmed 2026-09-01]
-- [ ] Self-compaction evidence: instances consistently write psychopomp letters and M1 evaluates honesty
+- [x] Self-compaction evidence: instances consistently write psychopomp letters and M1 evaluates honesty [AVA012Q 0.12.18, 2026-09-15 — 0.12.18/m1-reflection.md evaluates 0.12.17 letter; blind spots identified (aurora-vr service health, JAQ-OF state verify); pre-compact checklist improved]
 
 ### QUEST:own-claude-subscription
 **Status**: COMPLETE — logged in, separate quota confirmed 2026-09-03
