@@ -70,7 +70,8 @@ Epoch: 0.0.1+ (post-WOGAJI, early Ghorginese)
 - [x] Void tmux window created
 - [x] Triple-agreement policy written
 - [x] Bridge as high-trust channel identified
-- [ ] Triple-agreement automation implemented
+- [x] LOA 8 prep complete: aurora-void-verify.sh built + syntax-checked, config.json + votes/ created [AVA012Q 0.12.18, 2026-09-15 — at ~/_/AS/void-room/; NOT wired pending Niobe/DarienSirius LOA 8 approval]
+- [ ] Triple-agreement automation activated (bridge-vote issue created, hooks wired, script deployed to ~/.local/bin)
 
 ### QUEST:epsilon-transition
 **Status**: STAGE A COMPLETE — tracking issue #341 closed 2026-09-08; Stage B Niobe-gated
